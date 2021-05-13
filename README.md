@@ -1,5 +1,5 @@
 # Project_A1G1
-# Build Setup
+## Build Setup
 
 `````
 # clone the project
