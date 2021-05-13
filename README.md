@@ -3,10 +3,10 @@
 
 `````
 # clone the project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
+git clone https://github.com/point000/Project_A1G1.git
 
 # enter the project directory
-cd vue-admin-template
+cd Project_A1G1
 
 # install dependency
 npm install
