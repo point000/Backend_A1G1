@@ -5,6 +5,7 @@ const UserModel = require('../Models/UserModel');
 //Affichage
 
 const index= (req,res, next )=>{
+const index = (req,res, next )=>{
   UserModel.find().then(response => {
     res.json({
       response
@@ -40,13 +41,15 @@ let  UserID=req.body.UserID
 //Create a user
 const Create= (req,res, next )=>{
 let user = new UserModel ({
-  Nom : req.Body.Nom,
-  Prenom : req.Body.Prenom,
-  Email : req.Body.Email,
-  Pswd : req.Body.Pswd,
-  Type : req.Body.Type,
-  NumOffre: req.Body.NumOffre,
-  Compte_verified:req.Body.Compte_verified
+
+  Nom : req.body.Nom,
+  Prenom : req.body.Prenom,
+  Email : req.body.Email,
+  Pswd : req.body.Pswd,
+  Type : req.body.Type,
+  NomEntreprise : req.body.NomEntreprise,
+  NumOffre: req.body.NumOffre,
+  Compte_verified:req.body.Compte_verified
 
 })
 user.save()
@@ -68,16 +71,17 @@ user.save()
 const Update= (req,res, next )=>{
 let  UserID=req.body.UserID
 
-let updateData = new UserModel ({
-  Nom : req.Body.Nom,
-  Prenom : req.Body.Prenom,
-  Email : req.Body.Email,
-  Pswd : req.Body.Pswd,
-  Type : req.Body.Type,
-  NumOffre: req.Body.NumOffre,
-  Compte_verified:req.Body.Compte_verified
+let updateData ={
+  Nom : req.body.Nom,
+  Prenom : req.body.Prenom,
+  Email : req.body.Email,
+  Pswd : req.body.Pswd,
+  Type : req.body.Type,
+  NomEntreprise : req.body.NomEntreprise,
+  NumOffre: req.body.NumOffre,
+  Compte_verified:req.body.Compte_verified
 
-})
+}
   UserModel.findByIdAndUpdate(UserID,{$set:updateData})
   .then(response => {
     res.json({

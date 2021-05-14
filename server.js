@@ -16,7 +16,6 @@ db.once('open',function(){
   console.log('error is :',error);
 });
 
-
 const app = express()
 
 app.use(morgan('dev'))

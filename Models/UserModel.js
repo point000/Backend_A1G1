@@ -9,6 +9,7 @@ const UtilisateursShema= new mongoose.Schema ({
   Email : {type: String },
   Pswd :{type: String },
   Type : {type: Number },
+  NomEntreprise:{type :String},
   NumOffre : {type: Number},
   Compte_verified:{type:Boolean}
 
