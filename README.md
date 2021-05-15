@@ -16,5 +16,3 @@ npm run dev
 ````
 
 
-## API TESTER 
-on a utiliser Posetman pour tester l'api 
