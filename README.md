@@ -38,5 +38,5 @@ Demo Postman.
 
 
 
-## License
+## Directed by ADRAR
 [Point](https://github.com/point000)
