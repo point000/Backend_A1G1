@@ -32,12 +32,6 @@ Nous avons utilisé Postman pour tester notre API sans Frontend.
 Demo Postman.
 https://user-images.githubusercontent.com/68516549/118399040-7e2ba200-b65b-11eb-8b80-ebc95ddad9f5.mp4
 
-```diff
-- text in yellow
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[Point](https://github.com/point000)
