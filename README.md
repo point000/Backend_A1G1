@@ -30,7 +30,9 @@ git clone https://github.com/point000/Project_A1G1.git
 Nous avons utilisé Postman pour tester notre API sans Frontend.
 
 Demo Postman.
-https://user-images.githubusercontent.com/68516549/118399040-7e2ba200-b65b-11eb-8b80-ebc95ddad9f5.mp4
+
+![this](https://user-images.githubusercontent.com/68516549/118399750-ed56c580-b65e-11eb-9378-af340eaba728.gif)
+
 
 
 ## License
